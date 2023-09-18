@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#emojieContainer i{
+    @apply translate-x-[0] transition-transform drop-shadow 
+}
+
+.fa-star{
+    @apply cursor-pointer drop-shadow text-slate-400
+}
+.active{
+    @apply text-[#fab701] transition-colors 
+}
